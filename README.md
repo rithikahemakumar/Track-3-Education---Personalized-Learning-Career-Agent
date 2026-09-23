@@ -7,12 +7,17 @@ A study companion agent that:
 Place course_notes_dsa.pdf in the same folder before running.
  
 Install:
+
   pip install langchain langchain-community langchain-ollama langchain-chroma
+  
   pip install chromadb sentence-transformers pypdf gradio requests langgraph
  
 Run Ollama first:
+
   ollama pull qwen3:0.6b
+  
   ollama serve
  
 Then:
+
   python education_agent.py
